@@ -105,3 +105,47 @@ header {
   text-decoration: none;
 }
 
+#back-button:hover {
+  background-color: #E23A79;
+  border-color: #fff;
+}
+.reset-button:hover {
+  background-color: #E23A79;
+  border-color: #fff;
+}
+.card:hover {
+  border: 5px solid #C100D2;
+  transition: border-color 0.3s ease-in-out;
+}
+.credits-game p {
+  display: fixed;
+  background-color: #ccc;
+  color: #fff;
+  margin: 25px;
+  padding: 15px 10px 10px;
+  border-radius: 5px;
+  align-items: center;
+
+}
+
+.credits-game p span.overworld {
+  color: #FD0446;
+}
+
+.credits-game p span.version {
+  color: #000;
+}
+
+.player{
+  display: fixed;
+  margin: 10px;
+  align-items: center;
+  color: #FD0446;
+}
+
+.timer{
+  display: fixed;
+  margin: 10px;
+  align-items: center;
+  color: #FD0446;
+}
